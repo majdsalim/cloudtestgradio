@@ -40,4 +40,4 @@ intermediate = gr.Interface(
 demo = gr.TabbedInterface(interface_list=[intermediate],
                           tab_names=["Intermediate Workflow"])
 
-demo.launch()
+demo.launch(share=True)
