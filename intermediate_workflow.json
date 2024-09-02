@@ -1,9 +1,9 @@
 {
   "3": {
     "inputs": {
-      "seed": 156680208700286,
-      "steps": 4,
-      "cfg": 1,
+      "seed": 1001164544547690,
+      "steps": 20,
+      "cfg": 8,
       "sampler_name": "euler",
       "scheduler": "normal",
       "denoise": 0.6,
@@ -31,7 +31,7 @@
   },
   "4": {
     "inputs": {
-      "ckpt_name": "DreamShaperXL_Lightning-SFW.safetensors"
+      "ckpt_name": "dreamshaper_8.safetensors"
     },
     "class_type": "CheckpointLoaderSimple",
     "_meta": {
